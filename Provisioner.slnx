@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Readme.md" />
+  </Folder>
+  <Project Path="PlistLib/PlistLib.csproj" Id="37750c80-87d0-42f5-90c8-103606e77955" />
+  <Project Path="Provisioner.Android/Provisioner.Android.csproj">
+    <Deploy />
+  </Project>
+  <Project Path="Provisioner.Shared/Provisioner.Shared.csproj" />
+  <Project Path="Provisioner.Test/Provisioner.Test.csproj" Id="35017321-e35f-4ce1-bd53-db7d0586e28d" />
+</Solution>

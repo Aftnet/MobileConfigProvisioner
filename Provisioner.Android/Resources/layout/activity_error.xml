@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<androidx.appcompat.widget.Toolbar
+		android:id="@+id/toolbar"
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		android:background="?attr/colorPrimary"
+		android:elevation="4dp"
+		android:theme="@style/ThemeOverlay.AppCompat.ActionBar"/>
+	<TextView
+		android:id="@+id/titleTextView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="32dp"
+        android:layout_marginHorizontal="16dp"/>
+	<TextView
+		android:id="@+id/messageTextView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"/>
+</LinearLayout>

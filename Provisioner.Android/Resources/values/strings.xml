@@ -1,0 +1,8 @@
+<resources>
+	<string name="app_name">Provisioner</string>
+	<string name="header_view_error">Error</string>
+	<string name="pick_profile_page_text">
+		This app will apply settings from an Apple Configurator (.mobileconfig) profile to your device\n\nCurrently only Wi-Fi configuration is supported
+	</string>
+	<string name="pick_profile_button_text">Select profile</string>
+</resources>
